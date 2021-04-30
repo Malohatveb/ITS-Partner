@@ -1,0 +1,22 @@
+.left{
+    .textg{
+        font-family: 'PTSans-Regular';
+        font-size: 24px;
+        margin-top: 10px;
+    }
+}
+.right{
+    .texth{
+        font-family: 'PTSans-Regular';
+        font-size: 24px;
+        margin-top: 10px;
+    }
+}
+.center{
+    margin-top: 15px;
+    margin-left: 100px;;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}

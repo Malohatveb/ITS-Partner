@@ -1,0 +1,55 @@
+.adivace{
+    .col-4{
+        flex-basis: 33.333%;
+        padding: 5px;         
+        box-sizing: border-box;
+}
+    .col-8{
+        flex-basis: 66.666%;
+        padding: 5px;         
+        box-sizing: border-box;
+
+    }
+    .title{
+        font-size: 36px;
+        font-family: 'PTSans-Bold';
+        color: $black;
+        margin-top: 135px;
+        margin-bottom: 16px;
+    }
+    .text4{
+        color: $black;
+        font-size: 18px;
+        font-family: 'PTSans-Regular';
+        margin-top: 16px;
+        margin-bottom: 49px;
+        margin-right: 52px;
+    }
+    .link img{
+        margin-top: 149px;
+
+    }
+    .col-3{
+        margin-top: 36px;
+        margin-right: 52px;
+    }
+    .col-9{
+        margin-top: 19px;
+        font-family: 'PTSans-Regular';
+        font-size: 18px;
+    }
+    .title .span{
+       position: relative;
+    }
+    .title .span::before{
+        background: rgba(10,186,123,0.5);
+        border-radius: 10px;
+        height: 28px;
+        width: 28px;
+        bottom: 8px;
+        display: block;
+        margin-left: -15px;
+        content: '';
+        position: absolute;
+    }
+}

@@ -1,0 +1,38 @@
+header.header{
+    .text{
+        font-family: 'PTSans-Regular';
+        font-size: 28px;
+        color: $black;
+    }
+    .mcontainer{
+        max-width: 1262px;
+        margin: auto;
+        @include df();
+    }
+    .menu{
+        @include df();
+        list-style-type: none;
+        text-decoration: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: black;
+        .link{
+            text-decoration: none;
+            color: $black;
+            font-family: 'PTSans-Regular';
+            font-size: 18px;
+            // padding-left: 10px;
+            // padding-right: 10px;
+            &:hover{
+                color: $green;
+            }
+        }
+    }
+    .btns{
+        .link{
+            margin-left: 5px;
+            text-decoration: none;
+        }
+
+    }
+}

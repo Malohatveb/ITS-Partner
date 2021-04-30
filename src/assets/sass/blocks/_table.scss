@@ -1,0 +1,44 @@
+.table{
+    .htitle{
+        font-family: 'PTSans-Bold';
+        font-size: 36px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .col-4{
+        flex-basis: 33.333%; 
+        box-sizing: border-box;
+        max-width: 33.333%;
+        margin-top: 33px;
+    }
+    .col-4 .img{
+        border-radius: 10px;
+        height: 153px;
+    }
+    .texte{
+        font-size: 24px;
+        font-family: 'PTSans-Bold';
+        text-align: center;
+    }
+    .textf{
+        font-size: 16px;
+        font-family: 'PTSans-Regular';
+        padding-top: 15px;
+        text-align: center;
+    }
+    .htitle .span{
+        position: relative;
+        }
+        .htitle .span::before{
+            background: rgba(10,186,123,0.5);
+            border-radius: 10px;
+            height: 28px;
+            width: 28px;
+            bottom: 8px;
+            display: block;
+            margin-left: 380px;
+            content: '';
+            position: absolute;
+    }
+}

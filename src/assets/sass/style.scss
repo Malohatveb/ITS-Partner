@@ -1,0 +1,86 @@
+body,*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+@font-face{
+    font-family: 'PTSans-Regular';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'PTSans-Bold';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+body{
+    font-family: 'PTSans-Regular';
+}
+.row {
+    display: flex;  
+    flex-wrap: wrap;
+}
+$green:#0ABA7B;
+$black:#000000;
+@mixin bg() {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin df(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.container{
+    max-width: 1262px;
+    margin: auto;
+}
+header.header{
+    .text{
+        font-family: 'PTSans-Regular';
+        font-size: 28px;
+        color: $black;
+    }
+    .menu{
+        @include df();
+        padding-right: 10px;
+        padding-left: 10px;
+        list-style: none;
+        .link{
+            text-decoration: none;
+            color: $black;
+            font-family: 'PTSans-Regular';
+            font-size: 18px;
+            padding-right: 10px;
+            padding-left: 10px;
+            &:hover{
+                color: $green;
+            }
+        }
+    }
+}
+
+
+@import 'blocks/head';
+@import'blocks/slider';
+@import'blocks/adivace';
+@import'blocks/service';
+@import'blocks/wrapper';
+@import'blocks/table';
+@import'blocks/map';
+@import'blocks/footer';
+
+
+.bigtitle .span{
+    position: relative;
+    }
+    .bigtitle .span::before{
+        background: rgba(10,186,123,0.5);
+        border-radius: 10px;
+        height: 28px;
+        width: 28px;
+        bottom: 8px;
+        display: block;
+        margin-left: 566px;
+        content: '';
+        position: absolute;
+}

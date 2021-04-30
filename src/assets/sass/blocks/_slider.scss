@@ -1,0 +1,33 @@
+.slider {
+    .item{
+        height: 487px;
+        width: 100%;
+        @include bg();
+        .caption{
+            padding-top: 178px;
+            margin-left: -145px;
+        }
+        .text1{
+            font-size: 58px;
+            font-family: 'PTSans-Bold';
+            color: $black;
+            padding-left: 55px;
+        }
+        .text2{
+            font-family: 'PTSans-Regular';
+            font-size:24px;
+            padding-left: 55px;
+            color: $black;
+        }
+    }
+    .chiziq{
+    position: absolute;
+    width: 546px;
+    height: 4px;
+    left: 5px;
+    top: 400px;
+    right: 899px;
+    background: #0ABA7B;  
+    }
+
+}
